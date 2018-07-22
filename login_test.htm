@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Login page</title>
+		<script src="login_code.js"></script>
+		<script src="test_framework.js"></script>
+		<script src="login_unit_tests.js"></script>
+
+	</head>
+	<body>
+		<h2>Login page</h2>
+			<fieldset>
+
+				<label for="username">Username:</label>
+				<input name="username" type="text" id="username" />
+
+				<label for="password">Password:</label>
+				<input name="password" type="password" id="password" />
+				
+				<button id="submit" onclick="login_user(event)">
+					Login
+				</button>
+				
+				<div id="messages" ></div>
+			</fieldset>
+	</body>
+</html>

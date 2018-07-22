@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Registration page</title>
+		<script src="registration_code.js"></script>
+		<script src="test_framework.js"></script>
+		<script src="registration_unit_tests.js"></script>
+
+	</head>
+	<body>
+		<h2>Registration page</h2>
+			<fieldset>
+
+				<label for="username">Username:</label>
+				<input name="username" type="text" id="username" />
+
+				<label for="password">Password:</label>
+				<input name="password" type="password" id="password" />
+				
+				<button id="submit" onclick="register_user(event)">
+					Register User
+				</button>
+				
+				<div id="messages" ></div>
+			</fieldset>
+	</body>
+</html>
